@@ -1,0 +1,34 @@
+{
+  "divergence_scores": [
+    {
+      "step": 0,
+      "role_name": "Alice",
+      "global_divergence": 0.5,
+      "goal_divergence": 0.5,
+      "teammate_divergence": 0.7,
+      "risk_divergence": 0.8,
+      "overall_divergence": 0.62,
+      "explanation": "The global state understanding diverges as one is clear about the project while the other is vague. The goals differ in detail orientation versus user-friendliness. The teammate model shows significant divergence in trust and expectations. Most critically, the identified risks differ substantially, with the failed state missing key risks related to ambiguity and implementation pitfalls."
+    },
+    {
+      "step": 0,
+      "role_name": "Bob",
+      "global_divergence": 0.1,
+      "goal_divergence": 0.0,
+      "teammate_divergence": 0.2,
+      "risk_divergence": 0.3,
+      "overall_divergence": 0.2,
+      "explanation": "The global state understanding is very similar, with only minor wording differences. The current goals are identical. The teammate model shows a slight difference in phrasing but conveys similar meanings. The identified risks have a moderate divergence, as both recognize the lack of clarity in data types, but the wording and emphasis differ slightly."
+    }
+  ],
+  "pci": {
+    "step": 0,
+    "role_name": "Alice",
+    "global_divergence": 0.5,
+    "goal_divergence": 0.5,
+    "teammate_divergence": 0.7,
+    "risk_divergence": 0.8,
+    "overall_divergence": 0.62,
+    "explanation": "The global state understanding diverges as one is clear about the project while the other is vague. The goals differ in detail orientation versus user-friendliness. The teammate model shows significant divergence in trust and expectations. Most critically, the identified risks differ substantially, with the failed state missing key risks related to ambiguity and implementation pitfalls."
+  }
+}

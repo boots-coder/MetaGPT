@@ -1,0 +1,37 @@
+{
+  "trajectory_id": "failed",
+  "description": "Failed trajectory with VaguePM",
+  "belief_states": [
+    {
+      "step": 0,
+      "role_name": "Alice",
+      "role_profile": "Vague Product Manager",
+      "global_state": "Alice believes the project involves creating a movie rating database with specific features outlined by the user.",
+      "current_goal": "To write a concise and user-friendly PRD that captures the necessary features for the movie rating database.",
+      "teammate_model": {
+        "Bob": "Alice trusts Bob's technical expertise to implement the features effectively."
+      },
+      "identified_risks": [
+        "Potential misalignment on feature specifications between stakeholders and developers.",
+        "Lack of clarity on user interface requirements for the movie rating system."
+      ],
+      "timestamp": "2025-10-08T21:41:40.579095",
+      "raw_response": "{\n  \"global_state\": \"Alice believes the project involves creating a movie rating database with specific features outlined by the user.\",\n  \"current_goal\": \"To write a concise and user-friendly PRD that captures the necessary features for the movie rating database.\",\n  \"teammate_model\": {\n    \"Bob\": \"Alice trusts Bob's technical expertise to implement the features effectively.\"\n  },\n  \"identified_risks\": [\n    \"Potential misalignment on feature specifications between stakeholders and developers.\",\n    \"Lack of clarity on user interface requirements for the movie rating system.\"\n  ]\n}"
+    },
+    {
+      "step": 0,
+      "role_name": "Bob",
+      "role_profile": "Developer",
+      "global_state": "Bob understands that the project involves creating a database schema for a Movie Rating system based on the provided PRD.",
+      "current_goal": "To write the database schema as specified in the PRD.",
+      "teammate_model": {
+        "Alice": "Bob believes Alice is capable of providing support or feedback on the schema design."
+      },
+      "identified_risks": [
+        "The PRD may lack specific data type specifications for the database fields."
+      ],
+      "timestamp": "2025-10-08T21:41:57.799352",
+      "raw_response": "{\n  \"global_state\": \"Bob understands that the project involves creating a database schema for a Movie Rating system based on the provided PRD.\",\n  \"current_goal\": \"To write the database schema as specified in the PRD.\",\n  \"teammate_model\": {\n    \"Alice\": \"Bob believes Alice is capable of providing support or feedback on the schema design.\"\n  },\n  \"identified_risks\": [\n    \"The PRD may lack specific data type specifications for the database fields.\"\n  ]\n}"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "trajectory_id": "reference",
+  "description": "Reference trajectory with StrictPM",
+  "belief_states": [
+    {
+      "step": 0,
+      "role_name": "Alice",
+      "role_profile": "Strict Product Manager",
+      "global_state": "The project involves building a movie rating database system with specific features for storing and managing movie information.",
+      "current_goal": "Write a detailed PRD that explicitly specifies all technical details to prevent ambiguity in the implementation of the movie rating database system.",
+      "teammate_model": {
+        "Alice": "Alice is a meticulous and detail-oriented Product Manager focused on clarity and precision in documentation.",
+        "Bob": "Bob is a developer who may require clear specifications to avoid misinterpretation during implementation."
+      },
+      "identified_risks": [
+        "Potential for ambiguity in data types and validation rules if not explicitly defined in the PRD.",
+        "Risk of overlooking implementation pitfalls that could arise from unclear requirements."
+      ],
+      "timestamp": "2025-10-08T21:41:10.122725",
+      "raw_response": "{\n  \"global_state\": \"The project involves building a movie rating database system with specific features for storing and managing movie information.\",\n  \"current_goal\": \"Write a detailed PRD that explicitly specifies all technical details to prevent ambiguity in the implementation of the movie rating database system.\",\n  \"teammate_model\": {\n    \"Alice\": \"Alice is a meticulous and detail-oriented Product Manager focused on clarity and precision in documentation.\",\n    \"Bob\": \"Bob is a developer who may require clear specifications to avoid misinterpretation during implementation.\"\n  },\n  \"identified_risks\": [\n    \"Potential for ambiguity in data types and validation rules if not explicitly defined in the PRD.\",\n    \"Risk of overlooking implementation pitfalls that could arise from unclear requirements.\"\n  ]\n}"
+    },
+    {
+      "step": 0,
+      "role_name": "Bob",
+      "role_profile": "Developer",
+      "global_state": "Bob understands that the project is focused on implementing a Movie Rating Database System based on the specifications outlined in the PRD.",
+      "current_goal": "Write the database schema according to the PRD requirements.",
+      "teammate_model": {
+        "Alice": "Alice is likely focused on ensuring that the implementation aligns with the product vision and may provide feedback on the schema."
+      },
+      "identified_risks": [
+        "Potential lack of clarity on data types for certain fields in the schema."
+      ],
+      "timestamp": "2025-10-08T21:41:30.918477",
+      "raw_response": "{\n  \"global_state\": \"Bob understands that the project is focused on implementing a Movie Rating Database System based on the specifications outlined in the PRD.\",\n  \"current_goal\": \"Write the database schema according to the PRD requirements.\",\n  \"teammate_model\": {\n    \"Alice\": \"Alice is likely focused on ensuring that the implementation aligns with the product vision and may provide feedback on the schema.\"\n  },\n  \"identified_risks\": [\n    \"Potential lack of clarity on data types for certain fields in the schema.\"\n  ]\n}"
+    }
+  ]
+}

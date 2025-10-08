@@ -1,0 +1,16 @@
+{
+  "step": 1,
+  "role_name": "TestPM",
+  "role_profile": "Product Manager",
+  "global_state": "Project starting",
+  "current_goal": "Write PRD",
+  "teammate_model": {
+    "Developer": "Waiting for PRD"
+  },
+  "identified_risks": [
+    "Data type not specified",
+    "Missing validation"
+  ],
+  "timestamp": null,
+  "raw_response": null
+}
